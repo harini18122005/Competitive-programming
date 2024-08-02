@@ -1,0 +1,12 @@
+class Solution:
+    def factorialNumbers(self, n):
+        factorials = []
+        fact = 1
+        i = 1
+        while fact <= n:
+            factorials.append(fact)
+            i += 1
+            fact *= i
+        
+        return factorials
+

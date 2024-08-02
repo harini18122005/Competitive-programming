@@ -3,16 +3,12 @@ import math
 class Solution:
     def switchCase(self, choice: int, arr: list) -> float:
         if choice == 1:
-            # Calculate the area of a circle
             R = arr[0]
             return math.pi * R * R
         elif choice == 2:
-            # Calculate the area of a rectangle
             L = arr[0]
             B = arr[1]
             return L * B
         else:
-            return 0.0  # Default case if the choice is not 1 or 2
-
-# Example usage:
+            return 0.0  
 solution = Solution()

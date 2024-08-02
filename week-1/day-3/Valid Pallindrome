@@ -1,0 +1,8 @@
+import re
+
+class Solution:
+    def isPalindrome(self, s):
+        # Normalize the string by converting to lowercase and removing non-alphanumeric characters
+        normalized_str = re.sub(r'[^a-z0-9]', '', s.lower())
+        # Check if the normalized string is equal to its reverse
+        return normalized_str == normalized_str[::-1]

@@ -1,0 +1,4 @@
+class Solution:
+    def sumOfSeries(self, n):
+        sum_n = n * (n + 1) // 2
+        return sum_n * sum_n

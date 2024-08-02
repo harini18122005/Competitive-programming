@@ -7,6 +7,6 @@ class Solution:
         else:
             return 'greater'
 
-# Example usage:
+
 obj = Solution()
-res = obj.compareNM(4, 8)  # Output: 'lesser'
+res = obj.compareNM(4, 8) 
