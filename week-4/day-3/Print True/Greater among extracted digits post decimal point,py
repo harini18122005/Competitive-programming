@@ -1,0 +1,12 @@
+n1=float(input())
+n2=float(input())
+
+n1=int(n1*10)%10
+n2=int(n2*10)%10
+
+if(n1>n2):
+  print(n1)
+elif(n1==n2):
+  print("The numbers are equal")
+else:  
+  print(n2)
